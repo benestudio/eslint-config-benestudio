@@ -1,0 +1,35 @@
+module.exports = {
+  env: {
+    jest: true,
+  },
+  extends: ['airbnb'],
+  rules: {
+    'react/button-has-type': 0,
+    'react/default-props-match-prop-types': 'error',
+    'react/destructuring-assignment': 'off',
+    'react/forbid-prop-types': 'off',
+    'react/jsx-boolean-value': 'error',
+    'react/jsx-filename-extension': 'off',
+    'react/jsx-indent': 0,
+    'react/jsx-indent-props': 0,
+    'react/jsx-props-no-spreading': 0,
+    'react/jsx-sort-default-props': 'error',
+    'react/jsx-sort-props': 'error',
+    'react/no-array-index-key': 0,
+    'react/no-children-prop': 'error',
+    'react/no-did-mount-set-state': 0,
+    'react/no-did-update-set-state': 0,
+    'react/no-unescaped-entities': 0,
+    'react/no-unused-prop-types': 'error',
+    'react/prefer-stateless-function': [
+      'error',
+      {
+        ignorePureComponents: true,
+      },
+    ],
+    'react/prop-types': 'error',
+    'react/require-default-props': 0,
+    'react/sort-prop-types': 'error',
+    'react/state-in-constructor': 0,
+  },
+};

@@ -1,0 +1,6 @@
+*.md
+*.eslint*
+.gitignore
+.github/
+.editorconfig
+.huskyrc
