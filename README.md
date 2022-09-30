@@ -15,7 +15,7 @@ Benestudio specific base linting rules for ESLint
 We export one configurations for your usage.
 eslint-config-benestudio
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires eslint, eslint-plugin-import, eslint-plugin-import-order-alphabetical, eslint-plugin-jsx-a11y, eslint-plugin-markdown, eslint-plugin-prettier, eslint-plugin-jest, eslint-plugin-no-loops, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-sort-keys-shorthand .
+Our default export contains all of our ESLint rules, including ECMAScript 6+ and React. It requires eslint, eslint-plugin-import, eslint-plugin-jsx-a11y, eslint-plugin-markdown, eslint-plugin-prettier, eslint-plugin-jest, eslint-plugin-no-loops, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-sort-keys-shorthand .
 
 ---
 

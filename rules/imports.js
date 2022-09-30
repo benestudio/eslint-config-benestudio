@@ -8,7 +8,6 @@ module.exports = {
   },
   plugins: ['import'],
   rules: {
-    'import-order-alphabetical/order': 'error',
     'import/default': 'error',
     'import/extensions': [
       'error',
