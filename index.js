@@ -17,6 +17,7 @@ module.exports = {
   overrides: [
     {
       files: ['**/*.md'],
+      processor: 'markdown/markdown',
       rules: {
         'no-console': 'off',
         'no-undef': 'off',
@@ -25,7 +26,10 @@ module.exports = {
       },
     },
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false,
+  },
   plugins: [
     'import',
     'markdown',
@@ -34,6 +38,5 @@ module.exports = {
     'jsx-a11y',
     'no-loops',
     'react',
-    'eslint-plugin-import-order-alphabetical',
   ],
 };
