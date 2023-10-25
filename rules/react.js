@@ -13,7 +13,7 @@ module.exports = {
     'react/jsx-indent': 0,
     'react/jsx-indent-props': 0,
     'react/jsx-props-no-spreading': 0,
-    'react/jsx-sort-default-props': 'error',
+    'react/sort-default-props': 'error',
     'react/jsx-sort-props': 'error',
     'react/no-array-index-key': 0,
     'react/no-children-prop': 'error',
