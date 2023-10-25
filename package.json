@@ -1,6 +1,6 @@
 {
   "name": "@benestudioco/eslint-config-benestudio",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Benestudio specific base linting rules for ESLint",
   "main": "index.js",
   "scripts": {
